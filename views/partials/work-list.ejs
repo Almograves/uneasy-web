@@ -1,0 +1,26 @@
+<div id="portfsm-work-list">
+    <% if (works && works.length > 0) { %>
+    <% works.forEach(function(work) { %>
+    <div
+        hx-get="/work-card/<%= work.slug %>"
+        hx-trigger="intersect once"
+        hx-swap="outerHTML"
+        class="portfsm-work-card-placeholder"
+    >
+        <div class="portfsm-work-card-preview">
+            <h3><%= work.title %></h3>
+            <% if (work.date) { %>
+            <p><%= work.dateDisplay %></p>
+            <% } %>
+            <div class="portfsm-work-card-tags">
+                <% work.tags.forEach(function(tag) { %>
+                <span class="portfsm-tag"><%= tag %></span>
+                <% }); %>
+            </div>
+        </div>
+    </div>
+    <% }); %>
+    <% } else { %>
+    <p>No works found.</p>
+    <% } %>
+</div>

@@ -1,0 +1,30 @@
+<div id="portfsm-work">
+    <div class="portfsm-work-details">
+        <header class="portfsm-work-header">
+            <h2><%- work.title %></h2>
+            <% if (work.date) { %>
+            <p><%= work.dateDisplay %></p>
+            <% } %>
+            <% if (work.dimensions) { %>
+            <p class="portfsm-work-dimensions"><%= work.dimensions %></p>
+            <% } %>
+            <div class="portfsm-work-tags">
+                <% work.tags.forEach(function(tag) { %>
+                <a
+                    class="portfsm-tag"
+                    href="/pages/home?tags=<%= encodeURIComponent(tag) %>"
+                    hx-get="/pages/home?tags=<%= encodeURIComponent(tag) %>"
+                    hx-target="#portfsm-main"
+                    hx-swap="innerHTML"
+                    hx-push-url="true"
+                ><%= tag %></a>
+                <% }); %>
+            </div>
+        </header>
+
+        <%- include('partials/work-details', { work: work }) %>
+    </div>
+    <div class="portfsm-work-media">
+        <%- include('partials/work-media', { work: work }) %>
+    </div>
+</div>

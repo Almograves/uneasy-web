@@ -1,0 +1,21 @@
+#portfsm-header {
+    position: fixed;
+    top: 0;
+
+    height: var(--portfsm-header-height);
+    width: 100%;
+
+    background-color: var(--portfsm-bg-1);
+    border-bottom: var(--portfsm-border-1);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 var(--portfsm-spacing-m);
+
+    & > nav {
+        display: flex;
+        column-gap: var(--portfsm-spacing-l);
+    }
+}

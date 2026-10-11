@@ -1,0 +1,42 @@
+<div id="portfsm-works-filterer">
+    <form
+        hx-get="/works"
+        hx-trigger="change, keyup delay:500ms"
+        hx-target="#portfsm-work-list"
+        hx-swap="innerHTML"
+        hx-push-url="true"
+        onsubmit="event.preventDefault()"
+    >
+        <select name="sort">
+            <option value="index">Sort by Index</option>
+            <option value="name" <%= sort === 'name' ? 'selected' : '' %>>Sort by Name</option>
+            <option value="date-desc" <%= sort === 'date-desc' ? 'selected' : '' %>>Sort by Newest</option>
+            <option value="date-asc" <%= sort === 'date-asc' ? 'selected' : '' %>>Sort by Oldest</option>
+        </select>
+
+        <input
+            type="text"
+            name="search"
+            placeholder="Search..."
+            value="<%= search || '' %>"
+        />
+
+
+        <details id="portfsm-tag-filters">
+            <summary>Filter by Tag</summary>
+            <div>
+                <% tags.forEach(tag => { %>
+                <label>
+                    <input
+                        type="checkbox"
+                        name="tags"
+                        value="<%= tag %>"
+                        <%= selectedTags && selectedTags.includes(tag) ? 'checked' : '' %>
+                    />
+                    <span class="portfsm-tag"><%= tag %></span>
+                </label>
+                <% }); %>
+            </div>
+        </details>
+    </form>
+</div>

@@ -1,0 +1,35 @@
+<div
+    class="portfsm-work-card"
+    hx-get="/work/<%= work.slug %>"
+    hx-target="#portfsm-main"
+    hx-swap="innerHTML"
+    hx-push-url="true"
+>
+    <div class="portfsm-work-card-header">
+        <h3><%- work.title %></h3>
+        <% if (work.date) { %>
+        <p><%= work.dateDisplay %></p>
+        <% } %>
+        <div class="portfsm-work-card-tags">
+            <% work.tags.forEach(function(tag) { %>
+            <span class="portfsm-tag"><%= tag %></span>
+            <% }); %>
+        </div>
+    </div>
+    <% var description = work.sections && work.sections.find(function(section) { return section.kind === 'description'; }) %>
+    <% if (description) { %>
+    <div class="portfsm-work-card-content">
+        <%- description.content %>
+    </div>
+    <% } %>
+    <% if (work.images && work.images.length > 0) { %>
+    <div class="portfsm-work-card-images">
+        <% work.images.slice(0, 1).forEach(function(image) { %>
+        <img
+            src="/image/<%= work.id %>/web/<%= image.name %>"
+            alt="<%= image.alt || work.title %>"
+        />
+        <% }); %>
+    </div>
+    <% } %>
+</div>

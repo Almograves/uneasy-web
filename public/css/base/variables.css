@@ -1,0 +1,13 @@
+:root {
+    --portfsm-spacing-s: 0.2rem;
+    --portfsm-spacing-m: 0.75rem;
+    --portfsm-spacing-l: 1.5rem;
+    --portfsm-spacing-xl: 3rem;
+
+    --portfsm-bg-1: white;
+
+    --portfsm-border-1: var(--portfsm-spacing-s) solid black;
+
+    --portfsm-header-height: 8vh;
+    --portfsm-footer-height: 8vh;
+}

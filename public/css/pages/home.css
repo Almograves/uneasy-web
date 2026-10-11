@@ -1,0 +1,15 @@
+#portfsm-home {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: var(--portfsm-spacing-l);
+}
+
+#portfsm-hero {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}

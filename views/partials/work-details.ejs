@@ -1,0 +1,46 @@
+<% if (work.sections && work.sections.length > 0) { %>
+    <% work.sections.forEach(function(section) { %>
+        <% if (section.kind === 'description') { %>
+            <%- section.content %>
+        <% } else if (section.kind === 'details') { %>
+            <%- section.content %>
+        <% } else if (section.kind === 'collaborators' || section.kind === 'links') { %>
+            <% /* rendered as structured blocks below */ %>
+        <% } else { %>
+            <details>
+                <summary><%= section.displayName %></summary>
+                <%- section.content %>
+            </details>
+        <% } %>
+    <% }); %>
+<% } %>
+
+<% if (work.collaborators && work.collaborators.length > 0) { %>
+<div class="portfsm-work-collaborators">
+    <h3>Collaborators</h3>
+    <ul>
+        <% work.collaborators.forEach(function(collab) { %>
+        <li>
+            <strong><%= collab.name %></strong>
+            <% if (collab.role) { %>(<%= collab.role %>)<% } %>
+            <% if (collab.link) { %>
+            <a href="<%= collab.link.url %>" target="_blank" rel="noopener"><%= collab.link.text %></a>
+            <% } %>
+        </li>
+        <% }); %>
+    </ul>
+</div>
+<% } %>
+
+<% if (work.links && work.links.length > 0) { %>
+<div class="portfsm-work-links">
+    <h3>Links</h3>
+    <ul>
+        <% work.links.forEach(function(link) { %>
+        <li>
+            <a href="<%= link.url %>" target="_blank" rel="noopener"><%= link.title %></a>
+        </li>
+        <% }); %>
+    </ul>
+</div>
+<% } %>

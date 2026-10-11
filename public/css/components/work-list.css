@@ -1,0 +1,17 @@
+#portfsm-work-list {
+    display: grid;
+    gap: var(--portfsm-spacing-l);
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.portfsm-work-card-placeholder {
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+    gap: var(--portfsm-spacing-m);
+
+}
+
+.portfsm-work-card-preview {
+    grid-row: 1;
+}

@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh; /* fallback for browsers without dvh support */
+    min-height: 100dvh;
+    padding-top: var(--portfsm-header-height);
+}
+
+#portfsm-main {
+    background-color: var(--portfsm-bg-1);
+
+    /* Expose the padding as a CSS variable so pages that need to compute
+     * their own absolute size (e.g. #portfsm-work) can stay in sync
+     * if the padding is ever changed. */
+    --portfsm-main-padding: 2vw;
+    padding: var(--portfsm-main-padding);
+    padding-bottom: 0;
+    min-height: calc(
+        100vh - var(--portfsm-header-height) - var(--portfsm-footer-height)
+    ); /* fallback for browsers without dvh support */
+    min-height: calc(
+        100dvh - var(--portfsm-header-height) - var(--portfsm-footer-height)
+    );
+}

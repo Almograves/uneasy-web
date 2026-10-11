@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfsm</title>
+        <link rel="stylesheet" href="/css/main.css" />
+        <script src="/scripts/htmx.min.js"></script>
+        <script src="/scripts/work-filter.js"></script>
+    </head>
+    <body>
+        <header id="portfsm-header">
+            <div class="portfsm-logo">Artist</div>
+            <nav>
+                <button
+                    hx-get="/pages/home"
+                    hx-target="#portfsm-main"
+                    hx-swap="innerHTML"
+                    hx-push-url="true"
+                >
+                    home
+                </button>
+                <button
+                    hx-get="/pages/about"
+                    hx-target="#portfsm-main"
+                    hx-swap="innerHTML"
+                    hx-push-url="true"
+                >
+                    about
+                </button>
+            </nav>
+        </header>
+
+        <main
+            id="portfsm-main"
+            hx-get="<%= currentPage %>"
+            hx-trigger="load"
+            hx-swap="innerHTML"
+        >
+            <h3>Hello World</h3>
+        </main>
+
+        <footer id="portfsm-footer">
+            <div class="portfsm-copy">
+                &copy; <%= new Date().getFullYear() %> Artist
+            </div>
+            <nav>
+                <button
+                    hx-get="/pages/legal"
+                    hx-target="#portfsm-main"
+                    hx-swap="innerHTML"
+                    hx-push-url="true"
+                >
+                    legal
+                </button>
+                <a href="#portfsm-main"> page top </a>
+            </nav>
+        </footer>
+    </body>
+</html>

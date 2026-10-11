@@ -1,0 +1,21 @@
+/* Styling for the media column of the work page. */
+
+.portfsm-work-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: var(--portfsm-spacing-m);
+
+    & > img {
+        width: 100%;
+        margin: auto;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media (orientation: portrait) {
+    .portfsm-work-images > img {
+        width: 40vh; /* fallback for browsers without dvh support */
+        width: 40dvh;
+    }
+}

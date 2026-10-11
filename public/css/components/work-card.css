@@ -1,0 +1,33 @@
+.portfsm-work-card {
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+    border: var(--portfsm-border-1);
+    padding: var(--portfsm-spacing-l);
+    gap: var(--portfsm-spacing-m);
+    cursor: pointer;
+
+    & h3 {
+        font-size: 2rem;
+    }
+
+    &:hover {
+        opacity: 50%;
+    }
+}
+
+.portfsm-work-card-header {
+    grid-row: 1;
+}
+
+.portfsm-work-card-content {
+    grid-row: 2;
+}
+
+.portfsm-work-card-images {
+    grid-row: 3;
+
+    & > img {
+        max-width: min(100%, 360px);
+    }
+}

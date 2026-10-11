@@ -1,0 +1,17 @@
+#portfsm-footer {
+    height: var(--portfsm-footer-height);
+    width: 100%;
+
+    background-color: var(--portfsm-bg-1);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 var(--portfsm-spacing-m);
+
+    & > nav {
+        display: flex;
+        gap: var(--portfsm-spacing-l);
+    }
+}

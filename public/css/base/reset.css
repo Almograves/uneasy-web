@@ -1,0 +1,161 @@
+/* Comprehensive CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Reset links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Reset buttons */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+}
+
+/* Reset form elements */
+input,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* Reset images */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reset table */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset quotes */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: "";
+    content: none;
+}
+
+/* Reset headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Reset paragraphs */
+p {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+/* Reset address */
+address {
+    font-style: normal;
+}
+
+/* Reset fieldset */
+fieldset {
+    border: none;
+}
+
+/* Reset legend */
+legend {
+    padding: 0;
+}
+
+/* Reset hr */
+hr {
+    border: none;
+    height: 1px;
+    background: currentColor;
+}
+
+/* Reset details/summary */
+details {
+    display: block;
+}
+
+summary {
+    display: block;
+    cursor: pointer;
+}
+
+/* Reset dialog */
+dialog {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+
+/* Ensure consistent box sizing */
+html {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+/* Remove default tap highlight on mobile */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Improve media defaults */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/* Remove animations for reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

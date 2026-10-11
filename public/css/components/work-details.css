@@ -1,0 +1,58 @@
+.portfsm-work-details {
+    max-width: 70ch;
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: var(--portfsm-spacing-m);
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        margin-top: var(--portfsm-spacing-l);
+        margin-bottom: var(--portfsm-spacing-s);
+    }
+
+    .portfsm-work-header + p {
+        margin: var(--portfsm-spacing-l) 0;
+    }
+
+    .portfsm-work-tags > a {
+        text-decoration: none;
+    }
+
+    details {
+        margin-top: var(--portfsm-spacing-l);
+
+        & > summary {
+            margin-bottom: calc(2 * var(--portfsm-spacing-s));
+        }
+        & > summary::before {
+            content: "+ View ";
+        }
+        &[open] > summary::before {
+            content: "- Hide ";
+        }
+    }
+}
+
+.portfsm-work-collaborators,
+.portfsm-work-links {
+    margin-top: var(--portfsm-spacing-l);
+
+    & > h3 {
+        font-size: 1.2rem;
+        margin-bottom: var(--portfsm-spacing-s);
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        margin-bottom: calc(0.5 * var(--portfsm-spacing-s));
+    }
+
+    a {
+        margin-left: 0.5rem;
+    }
+}

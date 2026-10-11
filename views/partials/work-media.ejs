@@ -1,0 +1,10 @@
+<% if (work.images && work.images.length > 0) { %>
+<div class="portfsm-work-images">
+    <% work.images.forEach(function(image) { %>
+    <img
+        src="/image/<%= work.id %>/web/<%= image.name %>"
+        alt="<%= image.alt || work.title %>"
+    />
+    <% }); %>
+</div>
+<% } %>

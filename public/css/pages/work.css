@@ -1,0 +1,40 @@
+/*
+ * Work page layout.
+ *
+ * The header + #portfsm-main padding (only top) + work area + footer must
+ * add up to exactly 100vh so this page itself never scrolls — only the
+ * columns inside #portfsm-work scroll.
+ *
+ * #portfsm-main has a padding set in base/index.css using a variable.
+ * We use this variable here to calculate the height #fortfsm-work must
+ * have in order to not have #portfsm-main overflow.
+ */
+#portfsm-work {
+    height: calc(
+        100vh - var(--portfsm-header-height) - var(--portfsm-footer-height) -
+            var(--portfsm-main-padding)
+    ); /* fallback for browsers without dvh support */
+    height: calc(
+        100dvh - var(--portfsm-header-height) - var(--portfsm-footer-height) -
+            var(--portfsm-main-padding)
+    );
+    display: grid;
+    gap: var(--portfsm-spacing-s);
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (orientation: portrait) {
+    #portfsm-work {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: var(--portfsm-spacing-m);
+    }
+}
+
+.portfsm-work-details,
+.portfsm-work-media {
+    min-height: 0;
+    min-width: 0;
+    overflow-y: auto;
+    padding-right: var(--portfsm-spacing-s);
+}

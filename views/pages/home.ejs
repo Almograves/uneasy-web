@@ -1,0 +1,8 @@
+<div id="portfsm-home">
+    <div id="portfsm-hero">
+        <h2>I'm Artist Name</h2>
+        <h1>Explore my Work!</h1>
+    </div>
+    <%- include('../partials/work-filter', { tags: tags, sort: sort, search: search, selectedTags: selectedTags }) %>
+    <%- include('../partials/work-list', { works: works }) %>
+</div>
