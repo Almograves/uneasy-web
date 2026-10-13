@@ -1,5 +1,5 @@
 ---
-date: 2024-10-29--2024-10-29
+date: 2024-10-29
 #tags:
 #  - painting
 #  - landscape
@@ -19,9 +19,9 @@ Neben einer Einführung zu "Was ist überhaupt Künstliche Intelligenz?" wurde g
 Populäre und häufig genutzte KI-Tools und -programme wurden durch Abstimmung der Teilnehmer*innen in eine Tier-List mit den Kategorien "Bäh", "Exists", "Supports", "Enhances", "Co-creates" und "Arbeitslos"  sortiert. 
 <!-- was genau ist mit den Songs im Ordner final_files beim Event geschehen?  -->
 
-## Verbose
+<!-- ## Verbose -->
 
 ## Collaborators
 
-- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
+- **Prof. Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
 - **Felix Stadler Marcos** (Kursteilnehmer)
