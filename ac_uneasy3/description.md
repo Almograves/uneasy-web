@@ -11,7 +11,7 @@ date: 2024-12-10
 
 ## Description
 
-"Code of Christmas" ist ein 25-minütiges Weihnachtsmusical, welches von den Kursteilnehmer*innen gepromptet und zusammengeschnitten, und dann beim dritten {un}easy Event gezeigt wurde.
+"Code of Christmas" ist ein 25-minütiges Weihnachtsmusical, welches von den Kursteilnehmer*innen gepromptet, zusammengeschnitten, und dann beim dritten {un}easy Event gezeigt wurde.
 
 ## Details
 

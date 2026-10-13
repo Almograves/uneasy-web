@@ -11,11 +11,13 @@ date: 2024-11-27
 
 ## Description
 
-Absolut genial oder absolut beängstigend? Wohin führen neue Waffensysteme,  Verstärkung des Einsatzes im Bereich der künstlichen Intelligenz beim Militär, bewaffnete Roboter und KI-Software? Wenn militärische KI inmitten eines geopolitischen Minenfelds unreguliert entwickelt und ausgebaut wird, sind wir in einem Jahr alle tot?
+Autonome Waffensysteme: absolut genial oder absolut beängstigend? Wenn militärische KI inmitten eines geopolitischen Minenfelds unreguliert entwickelt und ausgebaut wird, sind wir in einem Jahr alle tot?
+
+<!-- Wohin führen neue Waffensysteme,  Verstärkung des Einsatzes im Bereich der künstlichen Intelligenz beim Militär, bewaffnete Roboter und KI-Software? -->
 
 ## Details
 
-Bestandteil des zweiten {un}easy Events war eine 10-minütige Videomontage, die zuvor von den Studierenden im Kurs erstellt wurde, bei der KI-gestützte Technologien und Waffensysteme sowie ihr zunehmender Einsatz im Militär gezeigt wurden. Die Teilnehmer*innen diskutierten über die Risiken autonomer Waffensysteme, und ob Science-Fiction-Warnungen wie Skynet beim technologischen Wachstum irgendwann Realität werden könnten.
+Bestandteil des zweiten {un}easy Events war eine 10-minütige Videomontage, die zuvor von den Studierenden im Kurs erstellt wurde, in der bewaffnete Roboter, KI-Software und neue Waffensysteme sowie ihr zunehmender Einsatz im Militär gezeigt wurden. Die Teilnehmer*innen diskutierten über die Risiken autonomer Waffensysteme, und ob Science-Fiction-Warnungen wie Skynet bei diesem technologischen Wachstum irgendwann Realität werden könnten.
 
 ## Verbose 
 
