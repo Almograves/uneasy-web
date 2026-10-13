@@ -1,7 +1,7 @@
 License for Artistic Works
 
 **Copyright Notice:**
-All works in this repository, including but not limited to images, text, designs, and other creative content, are the intellectual property of Felix Stadler Marcos. These works are protected by copyright law and may not be used, reproduced, distributed, or modified without the express written permission of the copyright holder.
+All works in this repository, including but not limited to images, text, designs, and other creative content, are the intellectual property of the {un}easy team (Julia Lippert, Felix Stadler Marcos, Anastasia Wilbrandt). These works are protected by copyright law and may not be used, reproduced, distributed, or modified without the express written permission of the copyright holder.
 
 **Permissions:**
 - You may view the works in this repository for personal, non-commercial purposes.

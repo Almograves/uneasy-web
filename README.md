@@ -1,4 +1,3 @@
-# Hi! Here I keep all my finished works
+# Hi! This is the documentation of all {un}easy events to this date.
 
-I feed them into my hybrid web + print portfolio. You can use the code I wrote to make your own portfolio based on the same logic. Check https://gitlab.com/almograves/portfsm hallo
-das ist ein test
+This website is built with code following the logic developed by Felix Stadler Marcos. Check https://gitlab.com/almograves/portfsm.
