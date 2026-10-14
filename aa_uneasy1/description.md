@@ -25,5 +25,6 @@ Populäre und häufig genutzte KI-Tools und -programme wurden durch Abstimmung d
 
 ## Collaborators
 
-- **Prof. Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
 - **Felix Stadler Marcos** (Kursteilnehmer)
+- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
+

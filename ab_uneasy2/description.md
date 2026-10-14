@@ -28,7 +28,8 @@ Fehler von KI-Systemen sind schwer zu identifizieren und zu beheben, zudem sind 
 
 ## Collaborators
 
-- **Prof. Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
+
 - **Kim Lautensack** (Kursteilnehmerin)
 - **Felix Stadler Marcos** (Kursteilnehmer)
 - **Constantin von Stillfried** (Kursteilnehmer)
+- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)

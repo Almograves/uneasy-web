@@ -27,7 +27,7 @@ Welchen technischen Fortschritt wünscht ihr euch?...
 
 ## Collaborators
 
-- **Prof. Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
+- **Anastasia Wilbrandt** 
 - **Felix Stadler Marcos** 
 - **Vitus Thanner** 
-- **Anastasia Wilbrandt** 
+- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
