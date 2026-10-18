@@ -6,7 +6,7 @@
 
     --portfsm-bg-1: black;
 
-    --portfsm-border-1: var(--portfsm-spacing-s) solid black;
+    --portfsm-border-1: var(--portfsm-spacing-s) solid white;
 
     --portfsm-header-height: 8vh;
     --portfsm-footer-height: 8vh;
