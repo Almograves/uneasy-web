@@ -20,11 +20,12 @@ Autonome Waffensysteme: absolut genial oder absolut beängstigend? Wenn militär
 Bestandteil des zweiten {un}easy Events war eine 10-minütige Videomontage, die zuvor von den Studierenden im Kurs erstellt wurde, in der bewaffnete Roboter, KI-Software und neue Waffensysteme sowie ihr zunehmender Einsatz im Militär gezeigt wurden. Die Teilnehmer*innen diskutierten über die Risiken autonomer Waffensysteme, und ob Science-Fiction-Warnungen wie Skynet bei diesem technologischen Wachstum irgendwann Realität werden könnten.
 
 ## Verbose 
+<!-- Was genau war der KI-Part bei diesem Event?? -->
 
-Autonome Waffensysteme und KI im Militär lassen das Eskalationsrisiko durch die geringere Hemmschwelle für Gewalt ansteigen und können in den Händen nichtstaatlicher Akteure oder
+<!-- Folgende Themen wurden u.a. diskutiert: Autonome Waffensysteme und KI im Militär lassen das Eskalationsrisiko durch die geringere Hemmschwelle für Gewalt ansteigen und können in den Händen nichtstaatlicher Akteure oder
 „Schurkenstaaten“ zu mehr Terroranschlägen führen.
 Fehler von KI-Systemen sind schwer zu identifizieren und zu beheben, zudem sind sie anfällig für Datenfälschung und Cyberangriffe.
-Übermäßiges Vertrauen in KI kann zu Fehlern und den Verlust menschlicher Expertise („Deskilling“) führen.
+Übermäßiges Vertrauen in KI kann zu Fehlern und den Verlust menschlicher Expertise („Deskilling“) führen. -->
 
 ## Collaborators
 
