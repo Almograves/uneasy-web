@@ -1,8 +1,14 @@
 #portfsm-header {
-    position: fixed;
+    /* Sticky (and therefore in flow) instead of fixed: the bar may wrap onto
+     * a second row on narrow screens, so the document has to reserve the
+     * bar's actual height. A fixed bar would need a hard-coded body offset
+     * that can't follow that. Visually it still pins to the top and content
+     * scrolls underneath. */
+    position: sticky;
     top: 0;
+    z-index: 10;
 
-    height: var(--portfsm-header-height);
+    min-height: var(--portfsm-header-height);
     width: 100%;
 
     background-color: var(--portfsm-bg-1);
@@ -10,19 +16,24 @@
 
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
-    gap: var(--portfsm-spacing-m);
+    flex-wrap: wrap;
+    gap: var(--portfsm-spacing-s) var(--portfsm-spacing-m);
 
     padding: 0 var(--portfsm-spacing-m);
 
     & > .portfsm-logo {
         display: flex;
         align-items: center;
-        height: 100%;
+        align-self: stretch;
         min-width: 0;
 
         & > img {
-            height: 40%;
+            /* Definite height instead of 40%: the header no longer has a
+             * fixed height, so a percentage would resolve against an
+             * indefinite box and collapse. */
+            height: calc(var(--portfsm-header-height) * 0.4);
             width: auto;
             object-fit: contain;
             object-position: left center;
@@ -31,6 +42,10 @@
 
     & > nav {
         display: flex;
-        column-gap: var(--portfsm-spacing-l);
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: var(--portfsm-spacing-s) var(--portfsm-spacing-l);
+        /* Keeps the nav right-aligned when it wraps onto its own row. */
+        margin-left: auto;
     }
 }

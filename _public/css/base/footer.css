@@ -1,17 +1,26 @@
 #portfsm-footer {
-    height: var(--portfsm-footer-height);
+    /* min-height instead of height: the nav wraps on narrow screens and the
+     * bar grows with it rather than clipping or spilling out of the box. */
+    min-height: var(--portfsm-footer-height);
     width: 100%;
 
     background-color: var(--portfsm-bg-1);
 
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--portfsm-spacing-s) var(--portfsm-spacing-m);
 
-    padding: 0 var(--portfsm-spacing-m);
+    padding: var(--portfsm-spacing-s) var(--portfsm-spacing-m);
 
     & > nav {
         display: flex;
-        gap: var(--portfsm-spacing-l);
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: var(--portfsm-spacing-s) var(--portfsm-spacing-l);
+        /* Keeps the nav right-aligned when it wraps onto its own row. */
+        margin-left: auto;
     }
 }

@@ -8,11 +8,14 @@ body {
 body {
     min-height: 100vh; /* fallback for browsers without dvh support */
     min-height: 100dvh;
-    padding-top: var(--portfsm-header-height);
 }
 
 #portfsm-main {
     background-color: var(--portfsm-bg-1);
+
+    /* The header is sticky and overlays the top of the page, so in-page
+     * anchors (e.g. "Seitenanfang") must stop below it. */
+    scroll-margin-top: var(--portfsm-header-height);
 
     /* Expose the padding as a CSS variable so pages that need to compute
      * their own absolute size (e.g. #portfsm-work) can stay in sync
