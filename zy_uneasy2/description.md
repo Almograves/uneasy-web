@@ -1,10 +1,5 @@
 ---
 date: 2024-11-27
-#tags:
-#  - painting
-#  - landscape
-#  - oil paint
-# dimensions: 60x80cm
 ---
 
 # 2025 alle tot?
@@ -29,8 +24,7 @@ Fehler von KI-Systemen sind schwer zu identifizieren und zu beheben, zudem sind 
 
 ## Collaborators
 
-
 - **Kim Lautensack** (Kursteilnehmerin)
-- **Felix Stadler Marcos** (Kursteilnehmer)
+- **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)
 - **Constantin von Stillfried** (Kursteilnehmer)
-- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
+- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://felixdoelker.de)

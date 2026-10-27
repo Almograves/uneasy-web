@@ -1,3 +1,10 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden; /* fallback for browsers without clip support */
+    overflow-x: clip;
+}
+
 body {
     min-height: 100vh; /* fallback for browsers without dvh support */
     min-height: 100dvh;
@@ -19,4 +26,12 @@ body {
     min-height: calc(
         100dvh - var(--portfsm-header-height) - var(--portfsm-footer-height)
     );
+}
+
+/* Dynamic viewport width tracks the visible width as mobile browser chrome
+ * changes (and excludes a desktop scrollbar). 2vw remains the fallback. */
+@supports (width: 1dvw) {
+    #portfsm-main {
+        --portfsm-main-padding: 2dvw;
+    }
 }

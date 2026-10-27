@@ -1,10 +1,5 @@
 ---
 date: 2025-12-18
-#tags:
-#  - painting
-#  - landscape
-#  - oil paint
-# dimensions: 60x80cm
 ---
 
 # Let's {not} talk about AI
@@ -28,6 +23,5 @@ Welchen technischen Fortschritt wünscht ihr euch?...
 ## Collaborators
 
 - **Anastasia Wilbrandt** 
-- **Felix Stadler Marcos** 
-- **Vitus Thanner** 
-- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
+- **Felix Stadler Marcos** - [website](https://felixstadlermarcos.de)
+- **Vitus Thanner**

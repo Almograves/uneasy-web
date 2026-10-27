@@ -20,18 +20,11 @@
     const params = new URLSearchParams(window.location.search);
     const sort = params.get("sort");
     const search = params.get("search");
-    const tags = params.getAll("tags");
 
     const sortSelect = form.querySelector('select[name="sort"]');
     const searchInput = form.querySelector('input[name="search"]');
     if (sortSelect) sortSelect.value = sort || "index";
     if (searchInput) searchInput.value = search || "";
-
-    form
-      .querySelectorAll('input[name="tags"]')
-      .forEach((checkbox) => {
-        checkbox.checked = tags.includes(checkbox.value);
-      });
     return true;
   }
 

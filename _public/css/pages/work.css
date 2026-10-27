@@ -2,11 +2,11 @@
  * Work page layout.
  *
  * The header + #portfsm-main padding (only top) + work area + footer must
- * add up to exactly 100vh so this page itself never scrolls — only the
- * columns inside #portfsm-work scroll.
+ * add up to exactly 100dvh (100vh fallback) so this page itself never
+ * scrolls — only the columns inside #portfsm-work scroll.
  *
  * #portfsm-main has a padding set in base/index.css using a variable.
- * We use this variable here to calculate the height #fortfsm-work must
+ * We use this variable here to calculate the height #portfsm-work must
  * have in order to not have #portfsm-main overflow.
  */
 #portfsm-work {

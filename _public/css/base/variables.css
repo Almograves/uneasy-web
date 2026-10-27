@@ -11,3 +11,13 @@
     --portfsm-header-height: 8vh;
     --portfsm-footer-height: 8vh;
 }
+
+/* Dynamic viewport units follow mobile browser chrome (URL bar, toolbars)
+ * as it expands and collapses. The vh values above are the fallback for
+ * browsers without dvh support. */
+@supports (height: 100dvh) {
+    :root {
+        --portfsm-header-height: 8dvh;
+        --portfsm-footer-height: 8dvh;
+    }
+}

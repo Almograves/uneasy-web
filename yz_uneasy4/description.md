@@ -22,6 +22,6 @@ Im Vorfeld des Events wurde ein KI-Song generiert, zu dem dann in einem Workshop
 ## Collaborators
 
 - **Kim Lautensack** (Kursteilnehmerin)
-- **Felix Stadler Marcos** (Kursteilnehmer)
+- **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)
 - **Constantin von Stillfried** (Kursteilnehmer)
-- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
+- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://felixdoelker.de)

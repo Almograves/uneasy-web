@@ -1,7 +1,9 @@
 #portfsm-work-list {
     display: grid;
     gap: var(--portfsm-spacing-l);
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    /* min(100%, …) keeps the track from overflowing the content box on
+     * narrow screens, where a fixed 20rem track would be wider than it. */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
 }
 
 .portfsm-work-card-placeholder {
@@ -9,7 +11,7 @@
     grid-row: span 3;
     grid-template-rows: subgrid;
     gap: var(--portfsm-spacing-m);
-
+    min-width: 0;
 }
 
 .portfsm-work-card-preview {

@@ -1,10 +1,5 @@
 ---
 date: 2024-10-29
-#tags:
-#  - painting
-#  - landscape
-#  - oil paint
-# dimensions: 60x80cm
 ---
 
 # 2025 alle arbeitslos!?
@@ -25,6 +20,7 @@ Populäre und häufig genutzte KI-Tools und -programme wurden durch Abstimmung d
 
 ## Collaborators
 
-- **Felix Stadler Marcos** (Kursteilnehmer)
-- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://www.felixdoelker.de)
-
+- **Kim Lautensack** (Kursteilnehmerin)
+- **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)
+- **Constantin von Stillfried** (Kursteilnehmer)
+- **Felix Dölker** (Professor für Gestaltung mit Künstlicher Intelligenz, Kursleitung) - [website](https://felixdoelker.de)

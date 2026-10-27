@@ -10,7 +10,16 @@
     </head>
     <body>
         <header id="portfsm-header">
-            <div class="portfsm-logo">{un}easy</div>
+            <a
+                class="portfsm-logo"
+                href="/"
+                hx-get="/pages/home"
+                hx-target="#portfsm-main"
+                hx-swap="innerHTML"
+                hx-push-url="true"
+            >
+                <img src="/img/logo.svg" alt="{un}easy" />
+            </a>
             <nav>
                 <button
                     hx-get="/pages/home"
@@ -42,18 +51,19 @@
 
         <footer id="portfsm-footer">
             <div class="portfsm-copy">
-                &copy; <%= new Date().getFullYear() %> Artist
+                &copy; <%= new Date().getFullYear() %> {un}easy
             </div>
             <nav>
+                <a href="https://www.hs-mainz.de/impressum/">Impressum</a>
                 <button
-                    hx-get="/pages/legal"
+                    hx-get="/pages/privacy"
                     hx-target="#portfsm-main"
                     hx-swap="innerHTML"
                     hx-push-url="true"
                 >
-                    legal
+                    Datenschutz
                 </button>
-                <a href="#portfsm-main"> page top </a>
+                <a href="#portfsm-main"> Seitenanfang </a>
             </nav>
         </footer>
     </body>

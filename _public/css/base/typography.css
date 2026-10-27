@@ -3,4 +3,5 @@
     font-size: 1em;
     font-weight: normal;
     color: white;
+    overflow-wrap: break-word;
 }

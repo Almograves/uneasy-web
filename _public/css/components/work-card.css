@@ -5,10 +5,12 @@
     border: var(--portfsm-border-1);
     padding: var(--portfsm-spacing-l);
     gap: var(--portfsm-spacing-m);
+    min-width: 0;
     cursor: pointer;
 
     & h3 {
         font-size: 2rem;
+        overflow-wrap: anywhere;
     }
 
     &:hover {
