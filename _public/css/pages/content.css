@@ -1,0 +1,18 @@
+/* Shared typography for the simple content pages (privacy, 404). */
+
+.portfsm-privacy,
+.portfsm-not-found
+.portfsm-about {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        max-width: 70ch;
+        margin-top: var(--portfsm-spacing-l);
+    }
+}

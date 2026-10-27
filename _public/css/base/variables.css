@@ -10,6 +10,14 @@
 
     --portfsm-header-height: 8vh;
     --portfsm-footer-height: 8vh;
+
+    /* Keep the UA on the authored dark scheme. `only` forbids the browser
+     * from overriding it (e.g. Chrome's Auto Dark Theme); `dark` is the
+     * fallback for engines that don't support the `only` keyword. This only
+     * affects browser-provided UI (form controls, scrollbars, canvas) —
+     * author colors are never inverted by color-scheme. */
+    color-scheme: dark;
+    color-scheme: only dark;
 }
 
 /* Dynamic viewport units follow mobile browser chrome (URL bar, toolbars)

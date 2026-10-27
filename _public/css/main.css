@@ -17,5 +17,6 @@
 @import url("./components/work-media.css");
 
 /* Pages */
+@import url("./pages/content.css");
 @import url("./pages/home.css");
 @import url("./pages/work.css");
