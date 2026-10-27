@@ -1,15 +1,62 @@
 #portfsm-home {
     display: grid;
-    grid-template-columns: 1fr;
+    /* minmax(0, …) instead of 1fr: a long word in the hero must be allowed
+     * to break instead of widening the whole page grid to its min-content. */
+    grid-template-columns: minmax(0, 1fr);
     row-gap: var(--portfsm-spacing-l);
 }
 
 #portfsm-hero {
-    h1 {
-        font-size: 3rem;
+    /* Big wordmark with the tagline underneath, both centered. Kept in normal
+     * flow: the logo no longer sits behind the text. */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--portfsm-spacing-m);
+    padding-block: var(--portfsm-spacing-m);
+    text-align: center;
+
+    & > h1 {
+        /* Big enough to carry the hero, small enough to leave room for the
+         * tagline beneath it. */
+        width: min(100%, 36rem);
+
+        & > .portfsm-hero-logo {
+            /* The image fills its wrapper, so the horizontal margin has to
+             * come out of that 100% instead of being added on top of it.
+             * Without the subtraction the logo is 1.5rem wider than the
+             * content box and the page scrolls sideways on phones. */
+            width: calc(100% - 2 * var(--portfsm-spacing-m));
+            margin: var(--portfsm-spacing-m);
+            margin-bottom: 0;
+            height: auto;
+        }
     }
 
-    h2 {
+    & > h2 {
         font-size: 2rem;
+        max-width: 60ch;
     }
+}
+
+/* The embedded announcement is a distinct block on the home page, so it gets
+ * the same border as the filter and the work cards. Scoped to the home page:
+ * /pages/news shows the same partial without the frame. */
+#portfsm-home > .portfsm-news {
+    border: var(--portfsm-border-1);
+    padding: var(--portfsm-spacing-l);
+}
+
+/* "Bisherige Events:" is a direct child of the page grid, so it doesn't get
+ * the hero's heading sizes. Give it the same size as other section headings
+ * plus a little more air above, on top of the grid's row gap. */
+#portfsm-home > h2 {
+    text-transform: uppercase;
+    margin-top: var(--portfsm-spacing-l);
+
+    /* Timeline in the header scrolls this heading to the top of the page;
+     * stop below the sticky header so it isn't covered. */
+    scroll-margin-top: calc(
+        var(--portfsm-header-height) + var(--portfsm-spacing-m)
+    );
 }

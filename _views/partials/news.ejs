@@ -1,0 +1,67 @@
+<%#
+    Next-event announcement.
+
+    The content lives here and nowhere else:
+      - /pages/news includes this with { full: true }  → article, whole text
+      - the home hero includes it without `full`       → teaser, whole block
+                                                         links to /pages/news
+    To retire it, delete the include in home.ejs (and this file, plus
+    pages/news.ejs if the URL should 404 too).
+%>
+<% var isTeaser = !(typeof full !== "undefined" && full); %>
+<% if (isTeaser) { %>
+<a
+    class="portfsm-news portfsm-news-link"
+    href="/pages/news"
+    hx-get="/pages/news"
+    hx-target="#portfsm-main"
+    hx-swap="innerHTML show:window:top"
+    hx-push-url="true"
+>
+<% } else { %>
+<article class="portfsm-news">
+<% } %>
+    <img
+        class="portfsm-news-media"
+        src="/img/uneasy7-announcement-banner.jpg"
+        alt=""
+        width="1920"
+        height="1080"
+    />
+    <div class="portfsm-news-body">
+        <p class="portfsm-news-kicker">Nächstes Event</p>
+        <h2 class="portfsm-news-title">{un}easy 7: Wer promptet hier wen?</h2>
+        <p class="portfsm-news-meta">
+            <time datetime="2026-11-30T18:30:00+01:00">30.11.2026, 18:30</time>
+            <span>LUX, Ludwigsstraße 2, Mainz</span>
+        </p>
+        <p>
+            {un}easy 07! In der nächsten Runde unseres Formats geht es wie immer
+            um KI, diesmal unter dem Aspekt von Medienkompetenz. Doch was
+            bedeutet Medienkompetenz eigentlich genau? Welche Skills benötigen
+            wir im Umgang mit KI, sowohl bei der Benutzung als auch bei der
+            Bewertung? Wie können wir diese erlangen und weitergeben?
+        </p>
+        <% if (isTeaser) { %>
+        <p class="portfsm-news-more"><em>Clicke um mehr zu erfahren</em></p>
+        <% } else { %>
+        <p>
+            Du benutzt KI routinemäßig und fühlst dich sicher im Umgang? Teste
+            aus, wie viel Kontrolle du in Interaktion mit ihr wirklich hast,
+            indem du ihre Anweisungen in unserem Improvisationstheater (frei)
+            auslegst. Wie fühlt es sich an, wenn die KI dir deine Meinung
+            vorgibt?
+        </p>
+        <p>
+            Vielleicht möchtest du aber auch in der Rolle des wütenden Anti-KI
+            Charakters die anderen Teilnehmer*innen überzeugen. Oder du kommst
+            nur zum Spaß vorbei, um den Buzzer zu drücken und einen weiteren
+            unserer Charaktere auszutesten.
+        </p>
+        <% } %>
+    </div>
+<% if (isTeaser) { %>
+</a>
+<% } else { %>
+</article>
+<% } %>

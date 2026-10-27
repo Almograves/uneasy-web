@@ -33,6 +33,25 @@
   function refreshList() {
     const form = filterForm();
     if (!form) return;
+
+    // The form normally pushes its /works URL. During a history restore the
+    // URL is already the one being restored, so pushing would add a spurious
+    // entry (and truncate forward history). Keep the attribute disabled
+    // until htmx has handled the response — it reads it then, not at request
+    // time — and put it back afterwards.
+    const pushUrl = form.getAttribute("hx-push-url");
+    form.setAttribute("hx-push-url", "false");
+
+    const restore = function () {
+      form.removeEventListener("htmx:afterRequest", restore);
+      if (pushUrl === null) {
+        form.removeAttribute("hx-push-url");
+      } else {
+        form.setAttribute("hx-push-url", pushUrl);
+      }
+    };
+    form.addEventListener("htmx:afterRequest", restore);
+
     form.dispatchEvent(new Event("change", { bubbles: true }));
   }
 

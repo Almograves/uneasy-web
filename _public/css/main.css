@@ -10,6 +10,7 @@
 @import url("./base/variables.css");
 
 /* Components */
+@import url("./components/news.css");
 @import url("./components/work-card.css");
 @import url("./components/work-details.css");
 @import url("./components/work-filter.css");

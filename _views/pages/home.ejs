@@ -1,8 +1,20 @@
 <div id="portfsm-home">
     <div id="portfsm-hero">
-        <h2>Offene Diskussionsrunde zum Thema künstliche Intelligenz</h2>
-        <h1>{un}easy</h1>
+        <h1>
+            <img
+                class="portfsm-hero-logo"
+                src="/img/logo.svg"
+                alt="{un}easy"
+                width="422"
+                height="94"
+            />
+        </h1>
+        <h2>Offene Diskussionsrunde zum Thema KI</h2>
     </div>
+
+    <%- include('../partials/news') %>
+
+    <h2 id="bisherige-events">Bisherige Events:</h2>
     <%- include('../partials/work-filter', { tags: tags, sort: sort, search: search, selectedTags: selectedTags }) %>
     <%- include('../partials/work-list', { works: works }) %>
 </div>

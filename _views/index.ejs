@@ -5,9 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="color-scheme" content="only dark" />
         <title>Portfsm</title>
+        <link rel="icon" type="image/png" href="/img/logo-square.png" />
+        <link rel="apple-touch-icon" href="/img/logo-square.png" />
         <link rel="stylesheet" href="/css/main.css" />
         <script src="/scripts/htmx.min.js"></script>
         <script src="/scripts/work-filter.js"></script>
+        <script src="/scripts/navigation.js"></script>
     </head>
     <body>
         <header id="portfsm-header">
@@ -16,7 +19,7 @@
                 href="/"
                 hx-get="/pages/home"
                 hx-target="#portfsm-main"
-                hx-swap="innerHTML"
+                hx-swap="innerHTML show:window:top"
                 hx-push-url="true"
             >
                 <img src="/img/logo.svg" alt="{un}easy" />
@@ -25,15 +28,24 @@
                 <button
                     hx-get="/pages/home"
                     hx-target="#portfsm-main"
-                    hx-swap="innerHTML"
+                    hx-swap="innerHTML show:#bisherige-events:top"
+                    hx-push-url="true"
+                    data-scroll-target="#bisherige-events"
+                >
+                    Timeline
+                </button>
+                <button
+                    hx-get="/pages/news"
+                    hx-target="#portfsm-main"
+                    hx-swap="innerHTML show:window:top"
                     hx-push-url="true"
                 >
-                    Startseite
+                    News
                 </button>
                 <button
                     hx-get="/pages/about"
                     hx-target="#portfsm-main"
-                    hx-swap="innerHTML"
+                    hx-swap="innerHTML show:window:top"
                     hx-push-url="true"
                 >
                     Über {un}easy
@@ -46,6 +58,7 @@
             hx-get="<%= currentPage %>"
             hx-trigger="load"
             hx-swap="innerHTML"
+            hx-on::after-request="this.removeAttribute('hx-get'); this.removeAttribute('hx-trigger')"
         >
             <h3>Hello World</h3>
         </main>
@@ -59,7 +72,7 @@
                 <button
                     hx-get="/pages/privacy"
                     hx-target="#portfsm-main"
-                    hx-swap="innerHTML"
+                    hx-swap="innerHTML show:window:top"
                     hx-push-url="true"
                 >
                     Datenschutz
