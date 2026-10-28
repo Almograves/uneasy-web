@@ -29,6 +29,11 @@
         align-self: stretch;
         min-width: 0;
 
+        /* Same feedback as the work cards. */
+        &:hover {
+            opacity: 50%;
+        }
+
         & > img {
             /* Definite height instead of 40%: the header no longer has a
              * fixed height, so a percentage would resolve against an
