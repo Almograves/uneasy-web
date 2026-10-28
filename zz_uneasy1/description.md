@@ -20,7 +20,7 @@ Neben einer Einführung zu "Was ist überhaupt Künstliche Intelligenz?" wurde g
 - "Co-creates" (= digitaler Partner)
 - "Arbeitslos" (= ersetzt Menschen)
 
-## Team
+## Collaborators
 
 - **Kim Lautensack** (Kursteilnehmerin)
 - **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)

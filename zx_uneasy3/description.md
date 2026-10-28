@@ -26,7 +26,7 @@ Die Programmiererin Lena setzt versehentlich eine mächtige KI-Software namens E
 
 - [Das ganze Musical auf YouTube](https://youtu.be/I_D93E7kouw?si=IwcF3i9Zu0xCFQEP)
 
-## Team
+## Collaborators
 
 - **Kim Lautensack** (Kursteilnehmerin)
 - **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)

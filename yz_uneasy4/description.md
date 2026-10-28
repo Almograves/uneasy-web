@@ -14,7 +14,7 @@ Im Vorfeld des Events wurde ein KI-Song generiert, der von einem Designworkshop 
 
 Das Resultat demonstriert die Fähigkeiten und Grenzen der KI-Technik Anfang 2025 und enthält inhaltliche Bezüge zu damaligen politischen Entwicklungen, wie die Wiederwahl von Donald Trump.
 
-## Team
+## Collaborators
 
 - **Kim Lautensack** (Kursteilnehmerin)
 - **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)

@@ -34,7 +34,7 @@ Der Geist der zukünftigen KI stellt Fragen:
 - "Welchen technischen Fortschritt wünscht ihr euch?"
 und betont "Ihr habt die Zukunft in der Hand!"
 
-## Team
+## Collaborators
 
 - **Anastasia Wilbrandt** 
 - **Felix Stadler Marcos** - [website](https://felixstadlermarcos.de)

@@ -16,7 +16,7 @@ Zu Beginn des zweiten {un}easy Events zeigte eine Videomontage aktuelle Entwickl
 
 Anschließend folgte ein interaktives Rollenspiel. Die Besucher*innen entschieden dabei Szene für Szene in einem fiktiven Szenario, in dem ein Forschungsteam die Kontrolle über eine militärische KI verloren hat, über das Fortgehen der Handlung. Auf jede Eingabe reagierte ein KI-Modell mit entsprechender weiterer Handlung, wobei zudem jedesmal ein Bild der aktuellen Szene live generiert wurde.
 
-## Team
+## Collaborators
 
 - **Kim Lautensack** (Kursteilnehmerin)
 - **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)
