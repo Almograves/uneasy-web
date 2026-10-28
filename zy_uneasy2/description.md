@@ -12,17 +12,11 @@ Autonome Waffensysteme: absolut genial oder absolut beängstigend? Wenn militär
 
 ## Details
 
-Bestandteil des zweiten {un}easy Events war eine 10-minütige Videomontage, die zuvor von den Studierenden im Kurs erstellt wurde, in der bewaffnete Roboter, KI-Software und neue Waffensysteme sowie ihr zunehmender Einsatz im Militär gezeigt wurden. Die Teilnehmer*innen diskutierten über die Risiken autonomer Waffensysteme, und ob Science-Fiction-Warnungen wie Skynet bei diesem technologischen Wachstum irgendwann Realität werden könnten.
+Zu Beginn des zweiten {un}easy Events zeigte eine Videomontage aktuelle Entwicklungen zu autonomen Waffensystemen. Der besorgniserregende Zusammenschnit was zuvor von den Studierenden erstellt worden und zeigte bewaffnete Roboter, tötungsbereite KI-Software und neue Waffensysteme sowie ihren zunehmenden Einsatz im Militär. Die Eventteilnehmer*innen diskutierten daraufhin über die Risiken solcher Systeme und ob Science-Fiction-Szenarien wie "Skynet" durch diese technologischen Entwicklungen irgendwann Realität werden könnten.
 
-## Verbose 
-<!-- Was genau war der KI-Part bei diesem Event?? -->
+Anschließend folgte ein interaktives Rollenspiel. Die Besucher*innen entschieden dabei Szene für Szene in einem fiktiven Szenario, in dem ein Forschungsteam die Kontrolle über eine militärische KI verloren hat, über das Fortgehen der Handlung. Auf jede Eingabe reagierte ein KI-Modell mit entsprechender weiterer Handlung, wobei zudem jedesmal ein Bild der aktuellen Szene live generiert wurde.
 
-<!-- Folgende Themen wurden u.a. diskutiert: Autonome Waffensysteme und KI im Militär lassen das Eskalationsrisiko durch die geringere Hemmschwelle für Gewalt ansteigen und können in den Händen nichtstaatlicher Akteure oder
-„Schurkenstaaten“ zu mehr Terroranschlägen führen.
-Fehler von KI-Systemen sind schwer zu identifizieren und zu beheben, zudem sind sie anfällig für Datenfälschung und Cyberangriffe.
-Übermäßiges Vertrauen in KI kann zu Fehlern und den Verlust menschlicher Expertise („Deskilling“) führen. -->
-
-## Collaborators
+## Team
 
 - **Kim Lautensack** (Kursteilnehmerin)
 - **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)

@@ -1,8 +1,7 @@
 /* Shared typography for the simple content pages (privacy, 404). */
 
 .portfsm-privacy,
-.portfsm-not-found
-.portfsm-about {
+.portfsm-not-found {
     h1 {
         font-size: 3rem;
     }

@@ -16,22 +16,41 @@
         margin: var(--portfsm-spacing-l) 0;
     }
 
-    .portfsm-work-tags > a {
-        text-decoration: none;
+    /* Paragraphs inside a section (Description, Details, or a custom
+     * section's body). The global reset removes the browser's default
+     * margins, so without this every paragraph after the first one sits
+     * flush against its predecessor. */
+    & > p {
+        margin-top: var(--portfsm-spacing-l);
     }
 
-    details {
-        margin-top: var(--portfsm-spacing-l);
+    /* A custom section's heading sits directly above its text, like the
+     * Collaborators heading. The paragraph rule above would otherwise add
+     * a full spacing step between them. */
+    & h3 + p,
+    & h3 + ul,
+    & h3 + ol {
+        margin-top: 0;
+    }
 
-        & > summary {
-            margin-bottom: calc(2 * var(--portfsm-spacing-s));
-        }
-        & > summary::before {
-            content: "+ View ";
-        }
-        &[open] > summary::before {
-            content: "- Hide ";
-        }
+    /* Markdown lists inside a section. The global reset removes markers,
+     * which is only wanted for the structured Collaborators/Links lists. */
+    & > ul,
+    & > ol {
+        margin-top: var(--portfsm-spacing-m);
+        padding-left: 1.5em;
+    }
+
+    & > ul {
+        list-style: disc;
+    }
+
+    & > ol {
+        list-style: decimal;
+    }
+
+    .portfsm-work-tags > a {
+        text-decoration: none;
     }
 }
 

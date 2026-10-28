@@ -7,10 +7,8 @@
         <% } else if (section.kind === 'collaborators' || section.kind === 'links') { %>
             <% /* rendered as structured blocks below */ %>
         <% } else { %>
-            <details>
-                <summary><%= section.displayName %></summary>
-                <%- section.content %>
-            </details>
+            <h3><%= section.displayName %></h3>
+            <%- section.content %>
         <% } %>
     <% }); %>
 <% } %>

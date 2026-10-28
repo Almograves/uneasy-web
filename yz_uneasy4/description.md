@@ -1,25 +1,20 @@
 ---
 date: 2025-01-21
-#tags:
-#  - painting
-#  - landscape
-#  - oil paint
-# dimensions: 60x80cm
 ---
 
 # mAImi
 
 ## Description
 
-{un}easy 04 fusionierte KI mit Latino Vibes. Dabei entstand ein interaktiver Workshop mit tropischen Cocktails.
+{un}easy 04 fusionierte KI Musikvideos mit Latin-Vibes. Dabei entstand ein interaktiver Workshop mit tropischen Cocktails.
 
 ## Details
 
-Im Vorfeld des Events wurde ein KI-Song generiert, zu dem dann in einem Workshop von allen Teilnehmer*innen Visuals generiert wurden. Gemeinsam entstand ein Musikvideo mit Szenen von Beach Parties bis hin zu Musk-Trump Bromance Intermezzos.
+Im Vorfeld des Events wurde ein KI-Song generiert, der von einem Designworkshop im sommerlichen "mAImi" handelt und für den im Rahmen eines echten Workshops in mAInz ein Musikvideo entstehen sollte. Die Teilnehmenden generierten individuell Clips mit selbstgewählten Szenen, unter anderem von Beach Parties und Elon Musk.
 
-<!-- ## Verbose  -->
+Das Resultat demonstriert die Fähigkeiten und Grenzen der KI-Technik Anfang 2025 und enthält inhaltliche Bezüge zu damaligen politischen Entwicklungen, wie die Wiederwahl von Donald Trump.
 
-## Collaborators
+## Team
 
 - **Kim Lautensack** (Kursteilnehmerin)
 - **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)

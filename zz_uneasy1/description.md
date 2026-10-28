@@ -6,19 +6,21 @@ date: 2024-10-29
 
 ## Description
 
-Eine unsichere Zukunft, geformt von der Macht der Künstlichen Intelligenz. Wie verändert KI unsere Welt? Wer profitiert? Und wie beeinflusst KI die Zukunft von Gestaltung? 
+Eine unsichere Zukunft, geformt von der Macht der Künstlichen Intelligenz. Wie verändert KI unsere Berufswelt? Wer profitiert? Und wie beeinflusst KI die Zukunft der Gestaltung? 
 
 ## Details
 
-Das erste Event von {un}easy lieferte einen intensiven Einblick in die Wahrnehmungen, Ängste und Hoffnungen der Teilnehmer*innen bezüglich KI und ihre Auswirkungen auf die gestalterische Praxis. Welche KI-Tools gibt es, und sind sie wirklich so mächtig, dass sie in Zukunft unsere Jobs ersetzen könnten?
+Das erste Event von {un}easy lieferte einen intensiven Einblick in die Wahrnehmungen, Ängste und Hoffnungen der Teilnehmer*innen bezüglich KI und ihren Auswirkungen auf die gestalterische Praxis. Es wurde geklärt welche Arten von KI-Tools es damals gab und ob sie wirklich so mächtig sein könnten, um in Zukunft unsere Jobs zu ersetzen.
 
-## Verbose
+Neben einer Einführung zu "Was ist überhaupt Künstliche Intelligenz?" wurde gemeinsam ein KI-Tool Ranking erstellt. Populäre und häufig genutzte Tools und Programme wurden durch Abstimmung der Teilnehmer*innen in eine Tier-List eingeordnet, die folgende Kategorien hatte:
+- "Bäh" (= störend, anti-nützlich)
+- "Exists" (= nutzlos)
+- "Supports" (= unterstütz Menschen)
+- "Enhances" (= erweitert die Möglichkeiten von Menschen)
+- "Co-creates" (= digitaler Partner)
+- "Arbeitslos" (= ersetzt Menschen)
 
-Neben einer Einführung zu "Was ist überhaupt Künstliche Intelligenz?" wurde gemeinsam ein KI-Tool Ranking erstellt und natürlich auch intensiv diskutiert.
-Populäre und häufig genutzte KI-Tools und -programme wurden durch Abstimmung der Teilnehmer*innen in eine Tier-List mit den Kategorien "Bäh", "Exists", "Supports", "Enhances", "Co-creates" und "Arbeitslos"  sortiert. 
-<!-- was genau ist mit den Songs im Ordner final_files beim Event geschehen?  -->
-
-## Collaborators
+## Team
 
 - **Kim Lautensack** (Kursteilnehmerin)
 - **Felix Stadler Marcos** (Kursteilnehmer) - [website](https://felixstadlermarcos.de)
